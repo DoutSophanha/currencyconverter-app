@@ -66,7 +66,7 @@ function getExchangeRate() {
     const fromCode = fromCurrency.value;
     const toCode = toCurrency.value;
 
-    const url = `https://v6.exchangerate-api.com/v6/747ef3694d17a79a02698f7e/latest/${fromCode}`;
+    const url = `https://v6.exchangerate-api.com/v6/enteryourAPIKEY/latest/${fromCode}`;
 
     fetch(url)
         .then(response => response.json())
