@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc);
+}
+
+.wrapper {
+    background: #fff;
+    width: 400px;
+    padding: 30px 25px;
+    border-radius: 16px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+}
+
+.wrapper header {
+    font-size: 24px;
+    font-weight: 600;
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.wrapper form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+form p {
+    font-size: 16px;
+    margin-bottom: 6px;
+    color: #333;
+}
+
+form input {
+    height: 48px;
+    padding: 0 16px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 100%;
+}
+
+form input:focus {
+    border-color: #6a11cb;
+    outline: none;
+}
+
+.drop-list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.select-box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #ccc;
+    padding: 8px 12px;
+    border-radius: 8px;
+    width: 150px;
+}
+
+.select-box select {
+    border: none;
+    background: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.select-box img {
+    width: 30px;
+    height: 20px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.icon {
+    font-size: 22px;
+    color: #6a11cb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.exchange-rate {
+    font-size: 16px;
+    color: #222;
+    text-align: center;
+}
+
+form button {
+    height: 48px;
+    font-size: 16px;
+    color: #fff;
+    background: #6a11cb;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #5011a9;
+}
